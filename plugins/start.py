@@ -5,7 +5,7 @@ from pyrogram import Client, Filters, StopPropagation, InlineKeyboardButton, Inl
 async def start(client, message):
     # return
     joinButton = InlineKeyboardMarkup([
-        [InlineKeyboardButton("Channel", url="https://t.me/aryan_bots")],
+        [InlineKeyboardButton("our movie channel", url="https://t.me/ott_release_only")],
         [InlineKeyboardButton(
             "Report Bugs 😊", url="https://t.me/aryanvikash")]
     ])
