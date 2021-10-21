@@ -13,7 +13,7 @@ async def start(client, message):
                                   
     await message.reply_photo(
         photo="https://telegra.ph/file/a93dd72c108a2ff0342fd.jpg"
-        caption="hi am a youtube downloder bot.. just send me the youtube video link"
+        
     reply_markup=InlineKeyboardMarkup([[
 InlineKeyboardButton(text="report bugs",url=https://t.me/pranthan_321")]])
 )
